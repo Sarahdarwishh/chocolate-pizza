@@ -1,88 +1,73 @@
 * {
     box-sizing: border-box;
 }
-
 body{
-    width: 1100px;
+    width: 900px;
     margin: auto;
 }
-
-
 header {
     display: grid;
     grid-template-columns: 50px auto auto;
     align-items: center;
+    border-bottom: 10px solid;
 }
-
-header section:nth-child(1){
-    line-height: 0.5;
-}
-
 header section:nth-child(2){
-    text-align: left;
-    line-height: 0.5;
-    
+    line-height: 0.1;
 }
-
-#imgs {
+header section:nth-child(2) p {
+    font-size: small;
+    opacity: 0.6;
+    color: gray;
+}
+header section:nth-child(3){
+    text-align: right;
+}
+header section:nth-child(3) span:nth-child(2){
+    margin-left: 10px;
+}
+main section:nth-child(1){
+    line-height: 0.1;
+}
+main section:nth-child(1) p{
+    opacity: 0.5;
+    color: gray;
+}
+main section:nth-child(4){
     display: grid;
     grid-template-columns: auto auto;
-    gap:1px;
-    
+    background-image:url(../img/list-bg.png);
+    padding-left: 50px;
 }
-
-#imgs section:nth-child(1) {
- margin-right: -20px;
+main section:nth-child(8){
+    border-top: 10px solid black;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 80px auto auto;
+    align-items: center;
 }
-
-#imgs section:nth-child(2){
-    margin-left: -120px;
+main section:nth-child(8) div {
+    line-height: 0.1;
 }
-
-h4 {
-    font-weight: lighter;
-    color: gray;
-    line-height: 0.2;
+footer {
+    border-top: 0.5px solid gray ;
+    line-height: 0.1;
+    text-align: center;
 }
-
-/* 
-header div section:nth-child(1) {
-
-    position: relative;
+a{
+    text-decoration: none;
+    color: white;
 }
-
-
-#logo {
-    position: absolute;    
-    left: 200px;
-    top: 40px;
-    
+button{
+    height: 50px;
 }
-
-#P1 {
-    font-size: 11px; 
-   position: absolute;  
-   bottom: -88px; 
-   left: 268px;
-   font-family: serif; 
-   opacity: 0.8;
+footer img{
+    margin-top: -18px;
 }
-
+main section:nth-child(3) p{
+    white-space:inherit;
+}
 #H1{
-    top: -11px;
-    position: absolute;   
-    left: 266px;    
-    font-size: 50px;    
-    font-family: 'Dancing Script', cursive;
+    font-family: cursive;
+    font-size: 26px;
 }
-
-header div section:nth-child(2){
-    position: relative;
-
-} */
-
-
-
-
-
-
